@@ -3105,6 +3105,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			MainStroke.Transparency = 0.5
 			MainStroke.Parent = DropdownFrame
 
+			DropdownTitle.Name = "Title"
 			DropdownTitle.Parent = DropdownFrame
 			DropdownTitle.Text = DropdownSettings.Name
 			DropdownTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
