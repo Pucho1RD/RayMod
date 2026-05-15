@@ -3097,6 +3097,14 @@ function RayfieldLibrary:CreateWindow(Settings)
 			MainCorner.CornerRadius = UDim.new(0, 6)
 			MainCorner.Parent = DropdownFrame
 
+			local MainStroke = Instance.new("UIStroke")
+			MainStroke.Name = "UIStroke"
+			MainStroke.Thickness = 1
+			MainStroke.Color = Color3.fromRGB(40, 40, 40)
+			MainStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			MainStroke.Transparency = 0.5
+			MainStroke.Parent = DropdownFrame
+
 			DropdownTitle.Parent = DropdownFrame
 			DropdownTitle.Text = DropdownSettings.Name
 			DropdownTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
