@@ -3188,6 +3188,15 @@ function RayfieldLibrary:CreateWindow(Settings)
 				end
 			end
 
+			function Dropdown:Refresh(NewOptions, ResetSelection)
+				Dropdown.Options = NewOptions
+				if ResetSelection then
+					table.clear(SelectedOptions)
+					Dropdown.Value = {}
+				end
+				RenderOptions()
+			end
+
 			RenderOptions()
 			return Dropdown
 		end
