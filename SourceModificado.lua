@@ -3103,7 +3103,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			DropdownTitle.Size = UDim2.new(1, -40, 0, 44)
 			DropdownTitle.Position = UDim2.new(0, 12, 0, 0)
 			DropdownTitle.TextXAlignment = Enum.TextXAlignment.Left
-			DropdownTitle.Font = Enum.Font.Govium
+			DropdownTitle.Font = Enum.Font.SourceSansBold
 
 			DropdownBtn.Parent = DropdownFrame
 			DropdownBtn.Size = UDim2.new(1, 0, 1, 0)
@@ -3144,7 +3144,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 					local OptionBtn = Instance.new("TextButton")
 					OptionBtn.Parent = OptionsContainer
 					OptionBtn.Size = UDim2.new(1, 0, 0, 30)
-					OptionBtn.Font = Enum.Font.Govium
+					OptionBtn.Font = Enum.Font.SourceSans
 					OptionBtn.TextSize = 14
 
 					local BtnCorner = Instance.new("UICorner")
